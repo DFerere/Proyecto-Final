@@ -1,0 +1,25 @@
+VISTA DE CARRITOS
+
+<div>
+  <h1>Lista de productos:</h1>
+  {{#each response2.Products}}
+     <div>
+       <h2>{{this.product.title}}</h2>
+       <h3>Descripcion:</h3>
+       <p>{{this.product.description}}</p>
+       <h3>Precio:</h3>
+       <p>{{this.product.price}}</p>
+       <h3>Url:</h3> 
+       <p>{{this.product.thumbnail}}</p>
+       <h3>Codigo:</h3>
+       <p>{{this.product.code}}</p>
+       <h3>En stock:</h3>
+       <p>{{this.product.stock}}</p> 
+       <h3>Categoria:</h3>
+       <p>{{this.product.category}}</p>
+     </div>
+  {{/each}}
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>

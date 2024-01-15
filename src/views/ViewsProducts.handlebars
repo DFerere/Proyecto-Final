@@ -1,0 +1,19 @@
+<h1>Tiendita Online MI EMPRENDIMIENTO</h1>
+
+<h2>Bienvenid@ {{objectsession.first_name}}</h2>
+<form action="http://localhost:8080/ecommerce/home/logout", method="get">
+  <button value="submit">Logout</button>
+</form>
+
+<form action="http://localhost:8080/mongo/carts/{{objectId_}}/purchase", method="post">
+  <button value="submit">Comprar</button>
+</form>
+
+<article id="catalogo"></article>
+
+<div id="cartid"> {{objectId_}}</div>
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/indexproducts.js"></script>

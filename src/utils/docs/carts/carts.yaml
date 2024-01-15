@@ -1,0 +1,186 @@
+paths:
+
+  /mongo/carts/deleteproduct/{cid}/products/{pid}:
+
+    delete:
+
+      summary: Eliminar producto de un carrito
+
+      tags: 
+        - Carts
+      parameters: 
+      - name: cid
+        in: path
+        required: true
+        description: ID del carrito de donde desea eliminar el producto
+        schema: 
+          $type: String
+      - name: pid
+        in: path
+        required: true
+        description: ID del producto a eliminar
+        schema: 
+          $type: String
+      responses:
+        "200": 
+          description: Se elimino el producto del carrito
+        "500": 
+          description: Hubo un error eliminando el producto del carrito
+
+  /mongo/carts/delete/{cid}:
+
+    delete:
+
+      summary: Eliminar carrito de la base de datos
+
+      tags: 
+        - Carts
+      parameters: 
+      - name: cid
+        in: path
+        required: true
+        description: ID del carrito de donde desea eliminar
+        schema: 
+          $type: String
+      responses:
+        "200": 
+          description: Se actualizaron los datos del producto de forma exitosa 
+        "500": 
+          description: Hubo un error actualizando el producto
+
+
+  /mongo/carts/carts/{cid}/products/{pid}:
+
+    put:
+
+      summary: Actualizar cantidad del producto en el carrito
+
+      tags: 
+        - Carts
+      requestBody: 
+        required: true
+        content: 
+          application/json: 
+            schema: 
+              $ref: '#components/requestBodies/updateProductCart'
+      parameters: 
+      - name: cid
+        in: path
+        required: true
+        description: ID del carrito de donde desea actualizar el producto
+        schema: 
+          $type: String
+      - name: pid
+        in: path
+        required: true
+        description: ID del producto actualizar
+        schema: 
+          $type: String
+      responses:
+        "200": 
+          description: Se actualizo producto en carrito
+          content: 
+            application!json:
+              schema: 
+                type: string
+                items:
+                  $ref: '#components/schemas/Carts'
+        "500": 
+          description: Hubo un error con la base de datos
+  
+  /mongo/carts/carts/{cid}:
+
+    get:
+
+      summary: Obtiene todos los productos de un carrito
+
+      tags: 
+        - Carts
+      parameters: 
+      - name: cid
+        in: path
+        required: true
+        description: ID del carrito
+        schema: 
+          $type: String
+      responses:
+        "200": 
+          description: Se obtuvieron todos los productos
+          content: 
+            application!json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#components/schemas/Carts'
+        "500": 
+          description: Hubo un error con la base de datos
+  
+  /mongo/carts/create:
+
+    post:
+
+      summary: Creas un carrito
+
+      tags: 
+        - Carts
+      responses:
+        "200": 
+          description: Se obtuvieron todos los productos
+          content: 
+            application!json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#components/schemas/Carts'
+        "500": 
+          description: Hubo un error con la base de datos
+          
+components:
+  schemas: 
+      Carts: 
+        type: Object
+        properties:
+          _id:
+            type: ObjectId
+            description: Id autogenerado por mongdb
+          products:
+            type: ObjectId
+            description: Productos que contiene el carrito
+        example: 
+          _id: ObkectId("a12hh6666kilok1y7")
+          products: "{title: Lapicero rojo, description: Lapicero rojo pequeño de tinta dura, price: 150, thumbnail: www.ecommerce.com/lapicerorojo, code: 556, stock: 58, status: true, category: Oficina/escolar, owner: davidferere@admin.com}"
+  requestBodies:
+    deleteProductCart: 
+      type: object
+      properties:
+        updateproduct: 
+          type: String
+          description: ID del Producto que se desea actualizar
+        element:
+          type: String
+          description: Campo del producto que se desea actualizar
+      exmaple: 
+        updateproduct: 1dfgt56hy7c10o9p14h
+        element: price
+    updateProductCart: 
+      type: object
+      properties:
+        quantity: 
+          type: Number
+          description: Cantidad del producto que va agregar al carrito 
+      exmaple: 
+          quantity: 5
+
+
+  
+      
+
+
+      
+
+
+
+
+
+
+

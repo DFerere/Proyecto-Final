@@ -1,0 +1,45 @@
+<form id="formulario" class="form">
+  <h2>Para borrar el producto agregue su ID</h2>
+  <label for="fname">ID del Producto:</label><br>
+  <input type="text" id="idproducto" name="idproducto"><br>
+  <button type="submit" id="boton">BORRAR</button>
+
+</form>
+
+<form id="formadd" class="form">
+  <h2>Para agregar un producto coloque los siguientes datos</h2>
+  <label for="title">Titulo del producto:</label><br>
+  <input type="text" id="title" name="title"><br>
+  <label for="description">Descripcion del producto:</label><br>
+  <input type="text" id="description" name="description"><br>
+  <label for="price">Precio del producto:</label><br>
+  <input type="text" id="price" name="price"><br>
+  <label for="thumbnail">Ruta del url del producto:</label><br>
+  <input type="text" id="thumbnail" name="thumbnail"><br>
+  <label for="code">Codigo del producto:</label><br>
+  <input type="text" id="code" name="code"><br>
+  <label for="stock">Stock del producto:</label><br>
+  <input type="text" id="stock" name="stock"><br>
+  <label for="status">Estatus del producto:</label><br>
+  <input type="text" id="status" name="status"><br>
+  <label for="category">Categoria del producto:</label><br>
+  <input type="text" id="category" name="category"><br>
+  <button type="submit" id="botonagregar">AGREGAR</button>
+
+</form>
+
+<form id="carrito" class="form">
+  <h2>Para agregar el producto al carrito escriba el ID del carrito y el ID del producto</h2>
+  <label for="fname">ID del Carrito:</label><br>
+  <input type="text" id="idcarrito" name="idcarrito"><br>
+  <label for="fname">ID del Producto:</label><br>
+  <input type="text" id="idproducto" name="idproducto"><br>
+  <button type="submit" id="boton">AGREGAR AL CARRITO</button>
+
+</form>
+
+<article id="articulo"></article>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>

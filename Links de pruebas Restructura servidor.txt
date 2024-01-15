@@ -1,0 +1,2 @@
+http://localhost:8080/ecommerce/home/login
+http://localhost:8080/ecommerce/home/signup

@@ -1,0 +1,224 @@
+paths:
+
+  /mongo/products/management/create:
+
+    post:
+
+      summary: Crear un producto en la base de datos 
+
+      tags: 
+        - Products
+      requestBody: 
+        required: true
+        content: 
+          application/json: 
+            schema: 
+              $ref: '#components/requestBodies/createProduct'
+      responses:
+        "200": 
+          description: Se creo un productos de forma exitosa 
+        "500": 
+          description: Hubo un error creando el producto
+
+  /mongo/products/management/update:
+
+    put:
+
+      summary: Actualizar los datos de un producto
+
+      tags: 
+        - Products
+      requestBody: 
+        required: true
+        content: 
+          application/json: 
+            schema: 
+              $ref: '#components/requestBodies/updateProduct'
+      responses:
+        "200": 
+          description: Se actualizaron los datos del producto de forma exitosa 
+        "500": 
+          description: Hubo un error actualizando el producto
+
+
+  /mongo/products/mockingproducts:
+
+    get:
+
+      summary: Obtiene todos los productos generados por mocking
+
+      tags: 
+        - Products
+      responses:
+        "200": 
+          description: Se obtuvieron todos los productos
+          content: 
+            application!json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#components/schemas/Products'
+        "500": 
+          description: Hubo un error con la base de datos
+  
+  /mongo/products/catalog:
+
+    get:
+
+      summary: Obtiene todos los productos de la base de datos
+
+      tags: 
+        - Products
+      responses:
+        "200": 
+          description: Se obtuvieron todos los productos
+          content: 
+            application!json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#components/requestBodies/updateProduct'
+        "500": 
+          description: Hubo un error con la base de datos
+  
+  /mongo/products/management/delete:
+
+    post:
+
+      summary: Eliminar productos 
+
+      tags: 
+        - Products
+      requestBody: 
+        required: true
+        content: 
+          application/json: 
+            schema: 
+              $ref: '#components/requestBodies/deleteProduct'
+      responses:
+        "200": 
+          description: Se elimino el producto de forma exitosa 
+        "500": 
+          description: Hubo un error eliminando el producto
+          
+components:
+  schemas: 
+      Products: 
+        type: Object
+        properties:
+          _id:
+            type: ObjectId
+            description: Id autogenerado por mongdb
+          title:
+            type: String
+            description: Titulo/nombre del producto
+          description:
+            type: String
+            description: Descripcion del producto
+          price:
+            type: Number
+            description: Precio del producto
+          thumbnail:
+            type: String
+            description: Direccion URL del producto
+          code:
+            type: Number
+            description: Codigo del producto
+          stock:
+            type: Number
+            description: Cantidad del producto disponible
+          status:
+            type: String
+            description: Estado binario del producto true/false
+          category:
+            type: String
+            description: Categoria del producto
+          owner:
+            type: String
+            description: Propietario del producto (quien lo creo)
+        example: 
+          _id: ObkectId("a12hh6666kilok1y7")
+          title: Lapicero rojo
+          description: Lapicero rojo pequeño de tinta dura
+          price: 150
+          tumbnail: www.ecommerce.com/lapicerorojo
+          code: 556
+          stock: 58
+          status: true
+          category: Oficina/escolar
+          owner: davidferere@admin.com
+  requestBodies:
+    updateProduct: 
+      type: object
+      properties:
+        updateproduct: 
+          type: String
+          description: ID del Producto que se desea actualizar
+        element:
+          type: String
+          description: Campo del producto que se desa actualizar
+      exmaple: 
+        updateproduct: 1dfgt56hy7c10o9p14h
+        element: price
+    deleteProduct: 
+      type: string
+      properties:
+        idproduct: 
+          type: String
+          description: ID del Producto que se desea eliminar
+      exmaple: 
+        idproduct: 1dfgt56hy7c10o9p14h
+    createProduct: 
+      type: object
+      properties:
+        title: 
+          type: String
+          description: ID del Producto que se desea eliminar
+        description: 
+          type: String
+          description: ID del Producto que se desea eliminar
+        price: 
+          type: Number
+          description: Precio del producto
+        thumbnail: 
+          type: String
+          description: URl del producto
+        code: 
+          type: Number
+          description: Codigo del producto
+        stock: 
+          type: Number
+          description: Cantidad disponible del producto
+        status: 
+          type: String
+          description: Estatus del producto
+        category: 
+          type: String
+          description: Categoria del producto
+        owner: 
+          type: String
+          description: Propietario del producto 
+      exmaple: 
+          title: Lapicero rojo
+          description: Lapicero rojo pequeño de tinta dura
+          price: 150
+          tumbnail: www.ecommerce.com/lapicerorojo
+          code: 556
+          stock: 58
+          status: true
+          category: Oficina/escolar
+          owner: admin
+
+
+  
+      
+
+
+      
+
+
+
+
+
+
+

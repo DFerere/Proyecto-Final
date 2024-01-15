@@ -1,0 +1,44 @@
+<h1>Desde aca podras gestionar los productos de la BD</h1>
+
+
+
+<form action="http://localhost:8080/mongo/products/management/create", method="post">
+  <h2>Para agregar un producto coloque los siguientes datos</h2>
+  <label for="fname">Titulo del producto:</label><br>
+  <input name="title" value="title" /><br>
+  <label for="fname">Descripcion del producto:</label><br>
+  <input name="description" value="description" /><br>
+  <label for="fname">Precio del producto:</label><br>
+  <input name="price" value="price" /><br>
+  <label for="fname">Ruta del url del producto:</label><br>
+  <input name="thumbnail" value="thumbnail" /><br>
+  <label for="fname">Codigo del producto:</label><br>
+  <input name="code" value="code" /><br>
+  <label for="fname">Stock del producto:</label><br>
+  <input name="stock" value="stock" /><br>
+  <label for="fname">Estatus del producto:</label><br>
+  <input name="status" value="status" /><br>
+  <label for="fname">Categoria del producto:</label><br>
+  <input name="category" value="category" /><br>
+  <button type="submit" id="boton">Crear producto</button>
+
+</form>
+
+<form action="http://localhost:8080/mongo/products/management/delete", method="delete">
+  <h2>Coloque el ID del producto que desea eliminar</h2>
+  <input name="idproduct" value="idproduct" /><br>
+  <button value="submit">Eliminar producto</button><br>
+
+</form>
+
+</form>
+
+<form action="http://localhost:8080/mongo/products/management/update", method="put">
+  <h2>Coloque el ID y campo del producto que desea actualizar</h2>
+  <input name="updateproduct" value="updateproduct" /><br>
+  <input name="element" value="element" /><br>
+  <button value="submit">Actualizar producto</button><br>
+
+</form>
+
+

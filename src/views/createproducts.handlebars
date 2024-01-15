@@ -1,0 +1,25 @@
+
+
+<form action="http://localhost:8080/mongo/products/management/create", method="post">
+  <h2>Para agregar un producto coloque los siguientes datos {{email}}</h2>
+  <label for="fname">Titulo del producto:</label><br>
+  <input name="title" value="title" /><br>
+  <label for="fname">Descripcion del producto:</label><br>
+  <input name="description" value="description" /><br>
+  <label for="fname">Precio del producto:</label><br>
+  <input name="price" value="price" /><br>
+  <label for="fname">Ruta del url del producto:</label><br>
+  <input name="thumbnail" value="thumbnail" /><br>
+  <label for="fname">Codigo del producto:</label><br>
+  <input name="code" value="code" /><br>
+  <label for="fname">Stock del producto:</label><br>
+  <input name="stock" value="stock" /><br>
+  <label for="fname">Estatus del producto:</label><br>
+  <input name="status" value="status" /><br>
+  <label for="fname">Categoria del producto:</label><br>
+  <input name="category" value="category" /><br>
+  <label for="fname">Propietario del producto</label><br>
+  <input name="owner" value="{{email}}" readonly="readonly"/><br>
+  <button type="submit" id="boton">Crear producto</button>
+
+</form>

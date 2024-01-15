@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "dff38899-3f65-474c-952c-fa093e2cb6a4",
+		"name": "Usuarios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18772740",
+		"_collection_link": "https://martian-moon-75265.postman.co/workspace/Programaci%25C3%25B3n-Backend~62617885-c2f8-4667-8acd-b36ad24d63c4/collection/18772740-dff38899-3f65-474c-952c-fa093e2cb6a4?action=share&source=collection_link&creator=18772740"
+	},
+	"item": [
+		{
+			"name": "Obtener todos los ususarios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"adminCoder@coder.com\",\r\n    \"password\": \"hola\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ecommerce/user/getallusers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ecommerce",
+						"user",
+						"getallusers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar usuarios lastconnection",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"adminCoder@coder.com\",\r\n    \"password\": \"hola\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ecommerce/user/inactiveusers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ecommerce",
+						"user",
+						"inactiveusers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

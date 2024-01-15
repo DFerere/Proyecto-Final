@@ -1,0 +1,26 @@
+ <script> 
+    var count = 0;  
+ </script>
+
+<div>
+  <h1>Lista de productos:</h1>
+  {{#each productos}}
+     <div>
+       <h2>{{this.title}}</h2>
+       <h3>Descripcion:</h3>
+       <p>{{this.description}}</p>
+       <h3>Precio:</h3>
+       <p>{{this.price}}</p>
+       <h3>Url:</h3> 
+       <p>{{this.thumbnail}}</p>
+       <h3>Codigo:</h3>
+       <p>{{this.code}}</p>
+       <h3>En stock:</h3>
+       <p>{{this.stock}}</p> 
+       <h3>Categoria:</h3>
+       <p>{{this.category}}</p>
+       <h3>Id del producto:</h3> 
+       <p>{{this.id}}</p> 
+     </div>
+  {{/each}}
+</div>

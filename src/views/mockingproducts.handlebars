@@ -1,0 +1,19 @@
+<h1>Lista de productos mocking</h1>
+
+<h2>Hola {{objectsession.first_name}} !!</h2>
+
+<div class="results">
+    {{#each products}}
+    <h2>{{this.product.name}}</h2>
+    <h3>Descripcion:</h3>
+    <p>{{this.product.productDescription}}</p>
+    <h3>Precio:</h3>
+    <p>{{this.product.price}}</p>
+    <h3>Pagina del producto:</h3>
+    <p>{{this.product.thumbnail}}</p>
+    <h3>Codigo del producto:</h3>
+    <p>{{this.product.code}}</p>
+    <h3>Categoria:</h3>
+    <p>{{this.product.category}}</p>
+    {{/each}}
+</div>

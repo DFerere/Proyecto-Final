@@ -1,0 +1,48 @@
+<form id="formadd" class="form">
+  <h2>Para agregar un producto coloque los siguientes datos</h2>
+  <label for="fname">Titulo del producto:</label><br>
+  <input type="text" id="title" name="title"><br>
+  <label for="fname">Descripcion del producto:</label><br>
+  <input type="text" id="description" name="description"><br>
+  <label for="fname">Precio del producto:</label><br>
+  <input type="text" id="price" name="price"><br>
+  <label for="fname">Ruta del url del producto:</label><br>
+  <input type="text" id="thumbnail" name="thumbnail"><br>
+  <label for="fname">Codigo del producto:</label><br>
+  <input type="text" id="code" name="code"><br>
+  <label for="fname">Stock del producto:</label><br>
+  <input type="text" id="stock" name="stock"><br>
+  <label for="fname">Estatus del producto:</label><br>
+  <input type="text" id="status" name="status"><br>
+  <label for="fname">Categoria del producto:</label><br>
+  <input type="text" id="category" name="category"><br>
+  <button type="submit" id="boton">AGREGAR</button>
+
+
+</form>
+
+<div>
+  <h1>Lista de productos:</h1>
+  {{#each products}}
+     <div>
+       <h2>{{this.title}}</h2>
+       <h3>Descripcion:</h3>
+       <p>{{this.description}}</p>
+       <h3>Precio:</h3>
+       <p>{{this.price}}</p>
+       <h3>Url:</h3> 
+       <p>{{this.thumbnail}}</p>
+       <h3>Codigo:</h3>
+       <p>{{this.code}}</p>
+       <h3>En stock:</h3>
+       <p>{{this.stock}}</p> 
+       <h3>Categoria:</h3>
+       <p>{{this.category}}</p>
+       <h3>Id del producto:</h3> 
+       <p>{{this.id}}</p> 
+     </div>
+  {{/each}}
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
