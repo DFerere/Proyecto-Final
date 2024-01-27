@@ -1,9 +1,11 @@
 import { productsModel } from '../../dao/models/productsmodels.js';
 import products from '../../repository/servicesproducts.js';
+import CartManagerMongo from './cartsManagerMongo.js';
 
 import { logger } from '../../utils/logger.js';
 
 const servicesproducts = new products();
+const cart = new CartManagerMongo();
 
 
 class ProductManagerMongo {
@@ -38,6 +40,20 @@ class ProductManagerMongo {
 
 
     }
+
+    async getproduct(productid) {
+
+        try {
+            const getprod = await servicesproducts.getproducts(productid);
+            logger.info("obtuvo el producto");
+            return getprod;
+        } catch {
+            logger.fatal("no pudo obtener el producto");
+        }
+
+
+    }
+
 
     async getProducts(limit) {
 
@@ -111,14 +127,67 @@ class ProductManagerMongo {
         try {
 
             const update = await servicesproducts.updateproducts(idproduct, update_element);
-            logger.info("se actualizo datos del producto"); 
+            logger.info("se actualizo datos del producto");
             return update;
 
         } catch {
 
-            logger.fatal("No se pudo actualizar datos del producto"); 
+            logger.fatal("No se pudo actualizar datos del producto");
 
         }
+
+
+    }
+
+    async validatestock(cartid) {
+
+        //console.log("ENTRO EN VALIDATE STOCK");
+
+        const products = await cart.getCartProducts(cartid); //Obtenemos los productos del carrito
+
+        //console.log("ACA IMPRIME PRODUCTOS DEL CARRITO");
+        //console.log(products[0].Products);
+
+        //cantidad de productos en el carrito
+        //console.log(products[0].Products.length);
+        const lenproducts = products[0].Products.length;
+
+        const prices = [];
+
+        for (let i = 0; i < lenproducts; i++) {
+
+            //console.log("IMPRIME QUANTITY"); //validacion
+            //console.log(products[0].Products[i].quantity); //validacion
+            const quantityprod = products[0].Products[i].quantity;
+
+            //console.log("IMPRIME STOCK");
+
+            //console.log(products[0].Products[i].product.stock); //validacion
+            const stockprod = products[0].Products[i].product.stock;
+
+            if (quantityprod <= stockprod) {
+                //console.log("SI HAY PRODUCTO");
+                const priceprod = products[0].Products[i].product.price;
+                prices.push(priceprod); //se agregar precio del producto despues de validado el stock
+            } else {
+                logger.error("No hay suficiente stock de un producto");
+                const prodname = products[0].Products[i].product.title; 
+                return prodname; //se retorno nombre del producto que no tiene suficiente stock
+            }
+        }
+
+        //console.log("LISTA DE PRECIOS");
+
+        //console.log(prices);
+
+        const sum = prices.reduce((partialSum, a) => partialSum + a, 0); //se suma lista de precios de productos en el carrito
+
+        //console.log("SUMA DE PRECIOS"); 
+        //console.log(sum); //SUMA DE PRECIOS
+
+        logger.info("Validacion de stock de productos exitosa"); 
+
+        return sum; //se retorna monto de la compra
 
 
     }

@@ -10,8 +10,8 @@ class mailing {
         var transporter = nodemailer.createTransport({
             host: 'smtp.ethereal.email',
             auth: {
-             user: 'lulu25@ethereal.email',
-              pass: 'jD2Tdgug98b6ug5HSd'
+             user: 'mitchell.roberts@ethereal.email',
+              pass: '	YmM4k9kkbxMkAC9sfR'
             },
             tls: {
                 rejectUnauthorized: false
@@ -48,8 +48,8 @@ class mailing {
       var transporter = nodemailer.createTransport({
           host: 'smtp.ethereal.email',
           auth: {
-           user: 'lulu25@ethereal.email',
-            pass: 'jD2Tdgug98b6ug5HSd'
+           user: 'mitchell.roberts@ethereal.email',
+            pass: 'YmM4k9kkbxMkAC9sfR'
           },
           tls: {
               rejectUnauthorized: false
@@ -74,6 +74,80 @@ class mailing {
 
 
   };
+
+
+  async ticketmailing(ticket, purchaser) {
+
+    const tokenvalue = `Se genero con exito su ticket de compra: ${ticket}`;
+    console.log(tokenvalue);
+    const message = tokenvalue.toString(); 
+
+    var transporter = nodemailer.createTransport({
+        host: 'smtp.ethereal.email',
+        auth: {
+         user: 'mitchell.roberts@ethereal.email',
+          pass: 'YmM4k9kkbxMkAC9sfR'
+        },
+        tls: {
+            rejectUnauthorized: false
+        }
+      });
+      
+      var mailOptions = {
+        from: 'anthony44@ethereal.email',
+        to: 'davidferere@gmail.com',
+        subject: 'ticket de compra de Ecommerce MI EMPRENDIMIENTO',
+        text: message, 
+      };
+      
+      transporter.sendMail(mailOptions, function(error, info){
+        if (error) {
+          console.log(error);
+        } else {
+          console.log('Email sent: ' + info.response);
+        }
+      });
+
+
+
+};
+
+
+async deleteprodmailing(product, owner) {
+
+  const tokenvalue = `Se he eliminado el producto: ${product}`;
+  console.log(tokenvalue);
+  const message = tokenvalue.toString(); 
+
+  var transporter = nodemailer.createTransport({
+      host: 'smtp.ethereal.email',
+      auth: {
+       user: 'mitchell.roberts@ethereal.email',
+        pass: 'YmM4k9kkbxMkAC9sfR'
+      },
+      tls: {
+          rejectUnauthorized: false
+      }
+    });
+    
+    var mailOptions = {
+      from: 'anthony44@ethereal.email',
+      to: owner,
+      subject: 'ticket de compra de Ecommerce MI EMPRENDIMIENTO',
+      text: message, 
+    };
+    
+    transporter.sendMail(mailOptions, function(error, info){
+      if (error) {
+        console.log(error);
+      } else {
+        console.log('Email sent: ' + info.response);
+      }
+    });
+
+
+
+};
 
   
 }; 

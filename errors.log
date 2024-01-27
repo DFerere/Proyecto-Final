@@ -3108,3 +3108,1355 @@
 2024-01-15T00:29:14.728Z [logs] info: Se borro correctamente el usuario
 2024-01-15T00:29:14.728Z [logs] info: Se borro el usuario de forma exitosa
 2024-01-15T00:29:14.729Z [logs] info: Se elimino usuario con exito
+2024-01-21T23:55:16.400Z [logs] info: GET en /ecommerce/home/login
+2024-01-21T23:55:16.405Z [logs] info: Ingreso a pagina de Login
+2024-01-21T23:55:16.510Z [logs] info: GET en /favicon.ico
+2024-01-21T23:56:31.866Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-21T23:56:32.148Z [logs] info: Ingreso a update last connection
+2024-01-21T23:56:32.478Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-21T23:56:32.481Z [logs] info: Ingreso usuario
+2024-01-21T23:56:32.487Z [logs] info: GET en /ecommerce/user/user
+2024-01-21T23:56:33.401Z [logs] info: Entre a /user
+2024-01-21T23:56:34.909Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-21T23:56:35.065Z [logs] info: usuario ingreso a su perfil: abolivar@gmail.com
+2024-01-21T23:57:43.045Z [logs] info: GET en /mongo/products/catalog
+2024-01-21T23:58:09.647Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-21T23:58:22.468Z [logs] info: GET en /ecommerce/home/login
+2024-01-21T23:59:13.364Z [logs] info: GET en /ecommerce/home/login
+2024-01-21T23:59:13.521Z [logs] info: Ingreso a pagina de Login
+2024-01-21T23:59:20.868Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-21T23:59:21.223Z [logs] info: Ingreso a update last connection
+2024-01-21T23:59:21.704Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-21T23:59:21.707Z [logs] info: Ingreso usuario
+2024-01-21T23:59:21.713Z [logs] info: GET en /ecommerce/user/user
+2024-01-21T23:59:22.768Z [logs] info: Entre a /user
+2024-01-21T23:59:24.689Z [logs] info: GET en /mongo/products/catalog
+2024-01-21T23:59:25.043Z [logs] info: GET en /js/indexproducts.js
+2024-01-21T23:59:25.715Z [logs] info: obtuvo todos los productos
+2024-01-21T23:59:25.865Z [logs] info: obtuvo todos los productos
+2024-01-21T23:59:26.196Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T00:01:56.577Z [logs] info: carrito existe para agregar producto
+2024-01-22T00:01:56.578Z [logs] info: producto no existe en el carrito
+2024-01-22T00:01:59.962Z [logs] info: carrito existe para agregar producto
+2024-01-22T00:01:59.964Z [logs] info: producto no existe en el carrito
+2024-01-22T00:02:00.353Z [logs] info: carrito existe para agregar producto
+2024-01-22T00:02:00.355Z [logs] info: Producto existe en el carrito
+2024-01-22T00:02:03.104Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T00:02:03.222Z [logs] info: Procedio a la compra: undefined
+2024-01-22T00:02:03.225Z [logs] fatal: No se pudo crear ticket de compra
+2024-01-22T00:02:03.226Z [logs] info: Se creo ticket de compra para: undefined
+2024-01-22T00:04:56.681Z [logs] info: obtuvo todos los productos
+2024-01-22T00:04:56.874Z [logs] info: obtuvo todos los productos
+2024-01-22T00:04:57.113Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T00:05:01.534Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-22T00:05:01.660Z [logs] info: usuario ingreso a su perfil: undefined
+2024-01-22T00:05:01.665Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T00:05:01.799Z [logs] info: Ingreso a pagina de Login
+2024-01-22T00:05:13.322Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T00:05:13.658Z [logs] info: Ingreso a update last connection
+2024-01-22T00:05:14.177Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T00:05:14.179Z [logs] info: Ingreso usuario
+2024-01-22T00:05:14.183Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T00:05:14.423Z [logs] info: Entre a /user
+2024-01-22T00:05:15.971Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-22T00:05:16.216Z [logs] info: usuario ingreso a su perfil: abolivar@gmail.com
+2024-01-22T00:05:18.714Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-22T00:05:19.021Z [logs] info: usuario ingreso a su perfil: abolivar@gmail.com
+2024-01-22T00:05:22.638Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T00:05:23.115Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T00:05:23.758Z [logs] info: obtuvo todos los productos
+2024-01-22T00:05:23.885Z [logs] info: obtuvo todos los productos
+2024-01-22T00:05:24.196Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T00:05:34.267Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T00:05:34.601Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T00:05:34.737Z [logs] info: se creo ticket de compra
+2024-01-22T00:05:34.737Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-22T01:05:08.133Z [logs] info: obtuvo todos los productos
+2024-01-22T01:05:08.212Z [logs] info: obtuvo todos los productos
+2024-01-22T01:05:08.366Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:05:12.260Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-22T01:05:12.335Z [logs] info: usuario ingreso a su perfil: undefined
+2024-01-22T01:05:12.341Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:05:12.413Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:05:20.030Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:05:20.242Z [logs] info: Ingreso a update last connection
+2024-01-22T01:05:20.493Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:05:20.496Z [logs] info: Ingreso usuario
+2024-01-22T01:05:20.501Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:05:21.125Z [logs] info: Entre a /user
+2024-01-22T01:05:22.017Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-22T01:05:22.187Z [logs] info: usuario ingreso a su perfil: abolivar@gmail.com
+2024-01-22T01:05:25.688Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:05:25.941Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:05:26.284Z [logs] info: obtuvo todos los productos
+2024-01-22T01:05:26.360Z [logs] info: obtuvo todos los productos
+2024-01-22T01:05:26.517Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:05:29.213Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:05:29.359Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:05:29.361Z [logs] error: usuario no existe
+2024-01-22T01:05:29.452Z [logs] info: se creo ticket de compra
+2024-01-22T01:05:29.452Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-22T01:07:46.225Z [logs] info: obtuvo todos los productos
+2024-01-22T01:07:46.305Z [logs] info: obtuvo todos los productos
+2024-01-22T01:07:46.468Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:07:47.979Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:07:48.087Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:07:48.095Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:07:48.613Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:07:54.216Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:07:54.424Z [logs] info: Ingreso a update last connection
+2024-01-22T01:07:54.706Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:07:54.708Z [logs] info: Ingreso usuario
+2024-01-22T01:07:54.713Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:07:54.885Z [logs] info: Entre a /user
+2024-01-22T01:07:56.779Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:07:57.066Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:07:57.406Z [logs] info: obtuvo todos los productos
+2024-01-22T01:07:57.478Z [logs] info: obtuvo todos los productos
+2024-01-22T01:07:57.639Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:07:58.430Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:07:58.586Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:07:58.661Z [logs] info: Se encontro ususario
+2024-01-22T01:07:58.751Z [logs] info: se creo ticket de compra
+2024-01-22T01:07:58.752Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-22T01:09:07.378Z [logs] info: obtuvo todos los productos
+2024-01-22T01:09:07.451Z [logs] info: obtuvo todos los productos
+2024-01-22T01:09:07.593Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:09:08.505Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:09:08.581Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:09:08.585Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:09:08.663Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:09:14.529Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:09:14.727Z [logs] info: Ingreso a update last connection
+2024-01-22T01:09:15.050Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:09:15.051Z [logs] info: Ingreso usuario
+2024-01-22T01:09:15.055Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:09:15.201Z [logs] info: Entre a /user
+2024-01-22T01:09:16.911Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:09:17.152Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:09:17.492Z [logs] info: obtuvo todos los productos
+2024-01-22T01:09:17.565Z [logs] info: obtuvo todos los productos
+2024-01-22T01:09:17.739Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:09:20.017Z [logs] info: carrito existe para agregar producto
+2024-01-22T01:09:20.020Z [logs] info: Producto existe en el carrito
+2024-01-22T01:13:05.005Z [logs] info: obtuvo todos los productos
+2024-01-22T01:13:05.081Z [logs] info: obtuvo todos los productos
+2024-01-22T01:13:05.243Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:13:25.051Z [logs] info: obtuvo todos los productos
+2024-01-22T01:13:25.681Z [logs] info: obtuvo todos los productos
+2024-01-22T01:13:25.831Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:20:33.004Z [logs] info: obtuvo todos los productos
+2024-01-22T01:20:33.092Z [logs] info: obtuvo todos los productos
+2024-01-22T01:20:33.234Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:22:04.578Z [logs] info: obtuvo todos los productos
+2024-01-22T01:22:05.118Z [logs] info: obtuvo todos los productos
+2024-01-22T01:22:05.287Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:22:07.825Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:22:07.899Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:22:07.906Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:22:08.475Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:22:17.169Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:22:17.388Z [logs] info: Ingreso a update last connection
+2024-01-22T01:22:17.646Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:22:17.649Z [logs] info: Ingreso usuario
+2024-01-22T01:22:17.654Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:22:17.822Z [logs] info: Entre a /user
+2024-01-22T01:22:19.596Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:22:19.867Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:22:20.172Z [logs] info: obtuvo todos los productos
+2024-01-22T01:22:20.246Z [logs] info: obtuvo todos los productos
+2024-01-22T01:22:20.404Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:22:22.296Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:22:22.451Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:22:22.535Z [logs] info: Se encontro ususario
+2024-01-22T01:22:22.629Z [logs] info: se creo ticket de compra
+2024-01-22T01:22:22.630Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-22T01:27:20.798Z [logs] info: obtuvo todos los productos
+2024-01-22T01:27:20.875Z [logs] info: obtuvo todos los productos
+2024-01-22T01:27:21.040Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:27:21.545Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:27:21.626Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:27:21.633Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:27:22.333Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:27:27.094Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:27:27.311Z [logs] info: Ingreso a update last connection
+2024-01-22T01:27:27.611Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:27:27.613Z [logs] info: Ingreso usuario
+2024-01-22T01:27:27.618Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:27:27.774Z [logs] info: Entre a /user
+2024-01-22T01:27:29.060Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:27:29.316Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:27:29.626Z [logs] info: obtuvo todos los productos
+2024-01-22T01:27:29.699Z [logs] info: obtuvo todos los productos
+2024-01-22T01:27:29.849Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:27:30.753Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:27:30.910Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:27:30.986Z [logs] info: Se encontro ususario
+2024-01-22T01:27:30.990Z [logs] fatal: Fallo la creacion de ticket para: abolivar@gmail.com
+2024-01-22T01:27:45.738Z [logs] info: obtuvo todos los productos
+2024-01-22T01:27:45.810Z [logs] info: obtuvo todos los productos
+2024-01-22T01:27:45.957Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:27:46.690Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:27:46.785Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:27:46.790Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:27:46.862Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:28:42.588Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:28:42.829Z [logs] info: Ingreso a update last connection
+2024-01-22T01:28:43.130Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:28:43.136Z [logs] info: Ingreso usuario
+2024-01-22T01:28:43.140Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:28:43.968Z [logs] info: Entre a /user
+2024-01-22T01:28:44.606Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:28:44.866Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:28:45.206Z [logs] info: obtuvo todos los productos
+2024-01-22T01:28:45.279Z [logs] info: obtuvo todos los productos
+2024-01-22T01:28:45.454Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:28:46.122Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:28:46.322Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:28:46.397Z [logs] info: Se encontro ususario
+2024-01-22T01:28:46.401Z [logs] fatal: Fallo la creacion de ticket para: abolivar@gmail.com
+2024-01-22T01:28:59.981Z [logs] info: obtuvo todos los productos
+2024-01-22T01:29:00.059Z [logs] info: obtuvo todos los productos
+2024-01-22T01:29:00.216Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:29:00.859Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:29:01.053Z [logs] info: Usuario hizo logout: abolivar@gmail.com
+2024-01-22T01:29:01.060Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:29:01.561Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:29:11.813Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:29:12.071Z [logs] info: Ingreso a update last connection
+2024-01-22T01:29:12.307Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:29:12.309Z [logs] info: Ingreso usuario
+2024-01-22T01:29:12.313Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:29:12.476Z [logs] info: Entre a /user
+2024-01-22T01:29:13.534Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:29:13.808Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:29:14.269Z [logs] info: obtuvo todos los productos
+2024-01-22T01:29:14.341Z [logs] info: obtuvo todos los productos
+2024-01-22T01:29:14.551Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:29:15.666Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:29:15.827Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:29:15.920Z [logs] info: Se encontro ususario
+2024-01-22T01:29:16.012Z [logs] info: se creo ticket de compra
+2024-01-22T01:29:16.012Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-22T01:31:34.016Z [logs] info: obtuvo todos los productos
+2024-01-22T01:31:34.144Z [logs] info: obtuvo todos los productos
+2024-01-22T01:31:34.326Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:31:35.746Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:31:35.862Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:31:35.869Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:31:36.378Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:31:42.414Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:31:42.624Z [logs] info: Ingreso a update last connection
+2024-01-22T01:31:42.956Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:31:42.958Z [logs] info: Ingreso usuario
+2024-01-22T01:31:42.963Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:31:43.116Z [logs] info: Entre a /user
+2024-01-22T01:31:44.252Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:31:44.508Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:31:44.822Z [logs] info: obtuvo todos los productos
+2024-01-22T01:31:44.896Z [logs] info: obtuvo todos los productos
+2024-01-22T01:31:45.063Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:31:45.662Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:31:45.827Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:31:45.900Z [logs] info: Se encontro ususario
+2024-01-22T01:31:46.002Z [logs] info: se creo ticket de compra
+2024-01-22T01:31:46.002Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-22T01:34:48.267Z [logs] info: obtuvo todos los productos
+2024-01-22T01:34:48.344Z [logs] info: obtuvo todos los productos
+2024-01-22T01:34:48.530Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:34:49.423Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:34:49.518Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:34:49.525Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:34:50.056Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:34:55.509Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:34:55.720Z [logs] info: Ingreso a update last connection
+2024-01-22T01:34:56.013Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:34:56.015Z [logs] info: Ingreso usuario
+2024-01-22T01:34:56.019Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:34:56.187Z [logs] info: Entre a /user
+2024-01-22T01:35:01.202Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:35:01.503Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:35:01.820Z [logs] info: obtuvo todos los productos
+2024-01-22T01:35:01.916Z [logs] info: obtuvo todos los productos
+2024-01-22T01:35:02.085Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:35:03.539Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:35:03.690Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:35:03.764Z [logs] info: Se encontro ususario
+2024-01-22T01:35:03.977Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:35:04.071Z [logs] info: se creo ticket de compra
+2024-01-22T01:35:04.071Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-22T01:37:05.737Z [logs] info: obtuvo todos los productos
+2024-01-22T01:37:06.033Z [logs] info: obtuvo todos los productos
+2024-01-22T01:37:06.395Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:37:06.523Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:37:06.598Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:37:06.607Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:37:07.493Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:37:13.664Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:37:13.962Z [logs] info: Ingreso a update last connection
+2024-01-22T01:37:14.219Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:37:14.222Z [logs] info: Ingreso usuario
+2024-01-22T01:37:14.227Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:37:14.410Z [logs] info: Entre a /user
+2024-01-22T01:37:15.925Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:37:16.167Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:37:16.509Z [logs] info: obtuvo todos los productos
+2024-01-22T01:37:16.585Z [logs] info: obtuvo todos los productos
+2024-01-22T01:37:17.027Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:37:47.775Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:37:47.855Z [logs] info: Procedio a la compra: undefined
+2024-01-22T01:37:47.945Z [logs] info: Se encontro ususario
+2024-01-22T01:37:47.947Z [logs] fatal: Fallo la creacion de ticket para: undefined
+2024-01-22T01:38:01.042Z [logs] info: obtuvo todos los productos
+2024-01-22T01:38:01.117Z [logs] info: obtuvo todos los productos
+2024-01-22T01:38:01.460Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:38:02.038Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-22T01:38:02.111Z [logs] info: Usuario hizo logout: undefined
+2024-01-22T01:38:02.116Z [logs] info: GET en /ecommerce/home/login
+2024-01-22T01:38:02.816Z [logs] info: Ingreso a pagina de Login
+2024-01-22T01:38:11.703Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-22T01:38:11.968Z [logs] info: Ingreso a update last connection
+2024-01-22T01:38:12.320Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-22T01:38:12.322Z [logs] info: Ingreso usuario
+2024-01-22T01:38:12.326Z [logs] info: GET en /ecommerce/user/user
+2024-01-22T01:38:12.654Z [logs] info: Entre a /user
+2024-01-22T01:38:16.310Z [logs] info: GET en /mongo/products/catalog
+2024-01-22T01:38:16.772Z [logs] info: GET en /js/indexproducts.js
+2024-01-22T01:38:17.133Z [logs] info: obtuvo todos los productos
+2024-01-22T01:38:17.226Z [logs] info: obtuvo todos los productos
+2024-01-22T01:38:17.367Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:38:18.029Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-22T01:38:18.187Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-22T01:38:18.259Z [logs] info: Se encontro ususario
+2024-01-22T01:38:18.447Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-22T01:38:18.535Z [logs] info: se creo ticket de compra
+2024-01-22T01:38:18.536Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T14:52:58.082Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T14:52:58.189Z [logs] info: Ingreso a pagina de Login
+2024-01-27T14:53:06.033Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T14:53:06.293Z [logs] info: Ingreso a update last connection
+2024-01-27T14:53:06.601Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T14:53:06.604Z [logs] info: Ingreso usuario
+2024-01-27T14:53:06.608Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T14:53:07.216Z [logs] info: Entre a /user
+2024-01-27T14:53:09.383Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T14:53:09.650Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T14:53:09.971Z [logs] info: obtuvo todos los productos
+2024-01-27T14:53:10.044Z [logs] info: obtuvo todos los productos
+2024-01-27T14:53:10.257Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T14:53:15.545Z [logs] info: carrito existe para agregar producto
+2024-01-27T14:53:15.547Z [logs] info: producto no existe en el carrito
+2024-01-27T14:53:27.985Z [logs] info: carrito existe para agregar producto
+2024-01-27T14:53:27.987Z [logs] info: Producto existe en el carrito
+2024-01-27T14:53:34.501Z [logs] info: carrito existe para agregar producto
+2024-01-27T14:53:34.503Z [logs] info: Producto existe en el carrito
+2024-01-27T14:53:45.951Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-27T14:53:46.088Z [logs] info: usuario ingreso a su perfil: undefined
+2024-01-27T14:53:46.091Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T14:53:46.166Z [logs] info: Ingreso a pagina de Login
+2024-01-27T14:53:54.620Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T14:53:54.844Z [logs] info: Ingreso a update last connection
+2024-01-27T14:53:55.101Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T14:53:55.101Z [logs] info: Ingreso usuario
+2024-01-27T14:53:55.104Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T14:53:55.292Z [logs] info: Entre a /user
+2024-01-27T15:00:23.233Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-27T15:00:23.309Z [logs] info: usuario ingreso a su perfil: undefined
+2024-01-27T15:00:23.315Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:00:23.433Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:00:29.771Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:00:30.004Z [logs] info: Ingreso a update last connection
+2024-01-27T15:00:30.235Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:00:30.237Z [logs] info: Ingreso usuario
+2024-01-27T15:00:30.240Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:00:30.983Z [logs] info: Entre a /user
+2024-01-27T15:00:31.972Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:00:32.211Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:00:32.554Z [logs] info: obtuvo todos los productos
+2024-01-27T15:00:32.638Z [logs] info: obtuvo todos los productos
+2024-01-27T15:00:32.826Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:00:45.437Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:00:45.581Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:00:45.656Z [logs] info: Se encontro ususario
+2024-01-27T15:00:45.923Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:00:46.077Z [logs] info: se creo ticket de compra
+2024-01-27T15:00:46.078Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:02:14.013Z [logs] info: obtuvo todos los productos
+2024-01-27T15:02:14.197Z [logs] info: obtuvo todos los productos
+2024-01-27T15:02:14.415Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:02:15.006Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:02:15.129Z [logs] info: Procedio a la compra: undefined
+2024-01-27T15:02:15.259Z [logs] info: Se encontro ususario
+2024-01-27T15:02:15.261Z [logs] fatal: Fallo la creacion de ticket para: undefined
+2024-01-27T15:02:16.946Z [logs] info: obtuvo todos los productos
+2024-01-27T15:02:17.016Z [logs] info: obtuvo todos los productos
+2024-01-27T15:02:17.179Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:02:17.947Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:02:18.036Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:02:18.041Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:02:18.516Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:02:33.685Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:02:33.879Z [logs] info: Ingreso a update last connection
+2024-01-27T15:02:34.262Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:02:34.263Z [logs] info: Ingreso usuario
+2024-01-27T15:02:34.266Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:02:34.430Z [logs] info: Entre a /user
+2024-01-27T15:02:36.633Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:02:36.900Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:02:37.279Z [logs] info: obtuvo todos los productos
+2024-01-27T15:02:37.367Z [logs] info: obtuvo todos los productos
+2024-01-27T15:02:37.511Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:02:38.216Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:02:38.479Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:02:38.551Z [logs] info: Se encontro ususario
+2024-01-27T15:02:38.694Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:02:38.821Z [logs] info: se creo ticket de compra
+2024-01-27T15:02:38.822Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:04:00.133Z [logs] info: obtuvo todos los productos
+2024-01-27T15:04:00.207Z [logs] info: obtuvo todos los productos
+2024-01-27T15:04:00.419Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:04:01.445Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:04:01.545Z [logs] info: Procedio a la compra: undefined
+2024-01-27T15:04:01.619Z [logs] info: Se encontro ususario
+2024-01-27T15:04:01.621Z [logs] fatal: Fallo la creacion de ticket para: undefined
+2024-01-27T15:04:02.964Z [logs] info: obtuvo todos los productos
+2024-01-27T15:04:03.072Z [logs] info: obtuvo todos los productos
+2024-01-27T15:04:03.210Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:04:10.799Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:04:10.875Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:04:10.880Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:04:11.510Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:04:17.495Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:04:17.730Z [logs] info: Ingreso a update last connection
+2024-01-27T15:04:18.012Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:04:18.014Z [logs] info: Ingreso usuario
+2024-01-27T15:04:18.016Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:04:18.157Z [logs] info: Entre a /user
+2024-01-27T15:04:19.138Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:04:19.388Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:04:19.748Z [logs] info: obtuvo todos los productos
+2024-01-27T15:04:19.836Z [logs] info: obtuvo todos los productos
+2024-01-27T15:04:19.975Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:04:22.930Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:04:23.088Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:04:23.205Z [logs] info: Se encontro ususario
+2024-01-27T15:04:23.349Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:04:23.467Z [logs] info: se creo ticket de compra
+2024-01-27T15:04:23.468Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:04:51.478Z [logs] info: obtuvo todos los productos
+2024-01-27T15:04:51.608Z [logs] info: obtuvo todos los productos
+2024-01-27T15:04:51.754Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:04:52.622Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:04:52.695Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:04:52.699Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:04:53.208Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:04:59.042Z [logs] info: GET en /ecommerce/user/github
+2024-01-27T15:04:59.557Z [logs] info: GET en /ecommerce/user/githubcallback?code=307fbbc6b08795515e3a
+2024-01-27T15:05:00.661Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:05:17.878Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:05:19.016Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:05:19.022Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:05:19.550Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:05:25.236Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:05:25.463Z [logs] info: Ingreso a update last connection
+2024-01-27T15:05:25.744Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:05:25.746Z [logs] info: Ingreso usuario
+2024-01-27T15:05:25.749Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:05:25.890Z [logs] info: Entre a /user
+2024-01-27T15:05:27.722Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:05:27.956Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:05:28.305Z [logs] info: obtuvo todos los productos
+2024-01-27T15:05:28.379Z [logs] info: obtuvo todos los productos
+2024-01-27T15:05:28.530Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:05:30.735Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:05:30.896Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:05:30.968Z [logs] info: Se encontro ususario
+2024-01-27T15:05:31.125Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:05:31.214Z [logs] info: se creo ticket de compra
+2024-01-27T15:05:31.215Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:06:18.431Z [logs] info: obtuvo todos los productos
+2024-01-27T15:06:18.563Z [logs] info: obtuvo todos los productos
+2024-01-27T15:06:18.853Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:06:19.510Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:06:19.584Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:06:19.589Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:06:20.221Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:06:25.749Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:06:25.950Z [logs] info: Ingreso a update last connection
+2024-01-27T15:06:26.255Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:06:26.256Z [logs] info: Ingreso usuario
+2024-01-27T15:06:26.259Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:06:26.413Z [logs] info: Entre a /user
+2024-01-27T15:06:28.288Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:06:40.566Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:06:42.029Z [logs] info: Usuario hizo logout: abolivar@gmail.com
+2024-01-27T15:06:42.035Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:06:42.568Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:06:48.350Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:06:48.572Z [logs] info: Ingreso a update last connection
+2024-01-27T15:06:48.854Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:06:48.855Z [logs] info: Ingreso usuario
+2024-01-27T15:06:48.859Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:06:49.127Z [logs] info: Entre a /user
+2024-01-27T15:06:50.330Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:06:50.487Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:06:51.345Z [logs] info: obtuvo todos los productos
+2024-01-27T15:06:51.418Z [logs] info: obtuvo todos los productos
+2024-01-27T15:06:51.570Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:06:53.020Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:06:53.232Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:06:53.302Z [logs] info: Se encontro ususario
+2024-01-27T15:06:53.459Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:06:53.646Z [logs] info: se creo ticket de compra
+2024-01-27T15:06:53.646Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:16:50.655Z [logs] info: obtuvo todos los productos
+2024-01-27T15:16:50.732Z [logs] info: obtuvo todos los productos
+2024-01-27T15:16:50.963Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:16:51.648Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:16:51.726Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:16:51.732Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:16:52.343Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:16:58.130Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:16:58.351Z [logs] info: Ingreso a update last connection
+2024-01-27T15:16:58.644Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:16:58.646Z [logs] info: Ingreso usuario
+2024-01-27T15:16:58.651Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:16:58.806Z [logs] info: Entre a /user
+2024-01-27T15:16:59.898Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:17:00.200Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:17:00.544Z [logs] info: obtuvo todos los productos
+2024-01-27T15:17:00.617Z [logs] info: obtuvo todos los productos
+2024-01-27T15:17:00.768Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:17:01.644Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:17:01.815Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:17:01.888Z [logs] info: Se encontro ususario
+2024-01-27T15:17:02.034Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:17:02.164Z [logs] info: se creo ticket de compra
+2024-01-27T15:17:02.165Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:17:37.511Z [logs] info: obtuvo todos los productos
+2024-01-27T15:17:37.588Z [logs] info: obtuvo todos los productos
+2024-01-27T15:17:37.753Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:17:38.519Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:17:38.614Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:17:38.620Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:17:39.203Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:17:45.512Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:17:45.721Z [logs] info: Ingreso a update last connection
+2024-01-27T15:17:46.053Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:17:46.055Z [logs] info: Ingreso usuario
+2024-01-27T15:17:46.060Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:17:46.208Z [logs] info: Entre a /user
+2024-01-27T15:17:47.769Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:17:48.073Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:17:48.460Z [logs] info: obtuvo todos los productos
+2024-01-27T15:17:48.579Z [logs] info: obtuvo todos los productos
+2024-01-27T15:17:48.770Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:17:49.458Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:17:49.635Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:17:49.760Z [logs] info: Se encontro ususario
+2024-01-27T15:17:49.951Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:17:50.044Z [logs] info: se creo ticket de compra
+2024-01-27T15:17:50.045Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:19:35.634Z [logs] info: obtuvo todos los productos
+2024-01-27T15:19:35.709Z [logs] info: obtuvo todos los productos
+2024-01-27T15:19:35.877Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:19:36.742Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:19:36.817Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:19:36.823Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:19:37.385Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:19:43.724Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:19:43.963Z [logs] info: Ingreso a update last connection
+2024-01-27T15:19:44.254Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:19:44.256Z [logs] info: Ingreso usuario
+2024-01-27T15:19:44.259Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:19:44.510Z [logs] info: Entre a /user
+2024-01-27T15:19:48.538Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:19:48.801Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:19:49.141Z [logs] info: obtuvo todos los productos
+2024-01-27T15:19:49.214Z [logs] info: obtuvo todos los productos
+2024-01-27T15:19:49.377Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:19:49.938Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:19:50.163Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:19:50.239Z [logs] info: Se encontro ususario
+2024-01-27T15:19:50.397Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:19:50.488Z [logs] info: se creo ticket de compra
+2024-01-27T15:19:50.488Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:22:04.399Z [logs] info: obtuvo todos los productos
+2024-01-27T15:22:04.632Z [logs] info: obtuvo todos los productos
+2024-01-27T15:22:04.782Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:22:05.570Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:22:05.657Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:22:05.665Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:22:06.241Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:22:12.081Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:22:12.311Z [logs] info: Ingreso a update last connection
+2024-01-27T15:22:12.570Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:22:12.573Z [logs] info: Ingreso usuario
+2024-01-27T15:22:12.578Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:22:12.743Z [logs] info: Entre a /user
+2024-01-27T15:22:14.092Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:22:14.333Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:22:14.671Z [logs] info: obtuvo todos los productos
+2024-01-27T15:22:14.744Z [logs] info: obtuvo todos los productos
+2024-01-27T15:22:14.914Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:22:16.233Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:22:16.444Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:22:16.518Z [logs] info: Se encontro ususario
+2024-01-27T15:22:16.710Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:22:16.807Z [logs] info: se creo ticket de compra
+2024-01-27T15:22:16.808Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T15:29:03.147Z [logs] info: obtuvo todos los productos
+2024-01-27T15:29:03.223Z [logs] info: obtuvo todos los productos
+2024-01-27T15:29:03.374Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:29:04.269Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:29:04.429Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:29:04.436Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:29:05.146Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:29:10.146Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:29:10.361Z [logs] info: Ingreso a update last connection
+2024-01-27T15:29:10.593Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:29:10.596Z [logs] info: Ingreso usuario
+2024-01-27T15:29:10.600Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:29:10.906Z [logs] info: Entre a /user
+2024-01-27T15:29:11.845Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:29:12.120Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:29:12.434Z [logs] info: obtuvo todos los productos
+2024-01-27T15:29:12.509Z [logs] info: obtuvo todos los productos
+2024-01-27T15:29:12.700Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:29:13.491Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:29:13.650Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:29:13.734Z [logs] info: Se encontro ususario
+2024-01-27T15:29:13.737Z [logs] fatal: Fallo la creacion de ticket para: abolivar@gmail.com
+2024-01-27T15:30:28.654Z [logs] info: obtuvo todos los productos
+2024-01-27T15:30:28.744Z [logs] info: obtuvo todos los productos
+2024-01-27T15:30:28.984Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:30:29.513Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:30:29.626Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:30:29.635Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:30:30.186Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:30:35.247Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:30:35.498Z [logs] info: Ingreso a update last connection
+2024-01-27T15:30:35.769Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:30:35.771Z [logs] info: Ingreso usuario
+2024-01-27T15:30:35.776Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:30:35.951Z [logs] info: Entre a /user
+2024-01-27T15:30:36.975Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:30:37.228Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:30:37.575Z [logs] info: obtuvo todos los productos
+2024-01-27T15:30:37.654Z [logs] info: obtuvo todos los productos
+2024-01-27T15:30:37.867Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:30:38.430Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:30:38.628Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:30:38.702Z [logs] info: Se encontro ususario
+2024-01-27T15:30:38.706Z [logs] fatal: Fallo la creacion de ticket para: abolivar@gmail.com
+2024-01-27T15:31:46.774Z [logs] info: obtuvo todos los productos
+2024-01-27T15:31:46.850Z [logs] info: obtuvo todos los productos
+2024-01-27T15:31:47.066Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:31:47.787Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T15:31:47.861Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T15:31:47.867Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T15:31:48.427Z [logs] info: Ingreso a pagina de Login
+2024-01-27T15:31:54.626Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T15:31:54.874Z [logs] info: Ingreso a update last connection
+2024-01-27T15:31:55.133Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T15:31:55.135Z [logs] info: Ingreso usuario
+2024-01-27T15:31:55.140Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T15:31:55.291Z [logs] info: Entre a /user
+2024-01-27T15:31:56.586Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T15:31:56.845Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T15:31:57.226Z [logs] info: obtuvo todos los productos
+2024-01-27T15:31:57.298Z [logs] info: obtuvo todos los productos
+2024-01-27T15:31:57.484Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T15:31:58.379Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T15:31:58.556Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T15:31:58.639Z [logs] info: Se encontro ususario
+2024-01-27T15:31:58.643Z [logs] fatal: Fallo la creacion de ticket para: abolivar@gmail.com
+2024-01-27T16:10:57.468Z [logs] info: obtuvo todos los productos
+2024-01-27T16:10:57.605Z [logs] info: obtuvo todos los productos
+2024-01-27T16:10:57.773Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:10:58.592Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:10:58.684Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:10:58.691Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:10:59.243Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:11:04.579Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:11:04.811Z [logs] info: Ingreso a update last connection
+2024-01-27T16:11:05.069Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:11:05.071Z [logs] info: Ingreso usuario
+2024-01-27T16:11:05.076Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:11:05.223Z [logs] info: Entre a /user
+2024-01-27T16:11:06.331Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:11:06.583Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:11:06.890Z [logs] info: obtuvo todos los productos
+2024-01-27T16:11:07.161Z [logs] info: obtuvo todos los productos
+2024-01-27T16:11:07.366Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:11:07.937Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:11:08.103Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:11:08.179Z [logs] info: Se encontro ususario
+2024-01-27T16:11:08.409Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:11:08.414Z [logs] fatal: Fallo la creacion de ticket para: abolivar@gmail.com
+2024-01-27T16:12:35.230Z [logs] info: obtuvo todos los productos
+2024-01-27T16:12:35.316Z [logs] info: obtuvo todos los productos
+2024-01-27T16:12:35.479Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:12:36.241Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:12:36.317Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:12:36.324Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:12:36.929Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:12:41.889Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:12:42.098Z [logs] info: Ingreso a update last connection
+2024-01-27T16:12:42.376Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:12:42.378Z [logs] info: Ingreso usuario
+2024-01-27T16:12:42.385Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:12:42.604Z [logs] info: Entre a /user
+2024-01-27T16:12:43.996Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:12:44.268Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:12:44.612Z [logs] info: obtuvo todos los productos
+2024-01-27T16:12:44.685Z [logs] info: obtuvo todos los productos
+2024-01-27T16:12:44.846Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:12:45.695Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:12:45.873Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:12:45.949Z [logs] info: Se encontro ususario
+2024-01-27T16:12:46.096Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:12:46.273Z [logs] info: se creo ticket de compra
+2024-01-27T16:12:46.274Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:13:22.829Z [logs] info: obtuvo todos los productos
+2024-01-27T16:13:22.916Z [logs] info: obtuvo todos los productos
+2024-01-27T16:13:23.073Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:13:23.786Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:13:23.863Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:13:23.867Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:13:23.945Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:13:30.195Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:13:30.446Z [logs] info: Ingreso a update last connection
+2024-01-27T16:13:30.755Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:13:30.756Z [logs] info: Ingreso usuario
+2024-01-27T16:13:30.760Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:13:30.915Z [logs] info: Entre a /user
+2024-01-27T16:13:31.548Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:13:31.794Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:13:32.127Z [logs] info: obtuvo todos los productos
+2024-01-27T16:13:32.211Z [logs] info: obtuvo todos los productos
+2024-01-27T16:13:32.372Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:13:38.358Z [logs] info: carrito existe para agregar producto
+2024-01-27T16:13:38.360Z [logs] info: producto no existe en el carrito
+2024-01-27T16:14:18.001Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:14:18.075Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:14:18.081Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:14:18.207Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:14:23.947Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:14:24.197Z [logs] info: Ingreso a update last connection
+2024-01-27T16:14:24.504Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:14:24.505Z [logs] info: Ingreso usuario
+2024-01-27T16:14:24.509Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:14:24.662Z [logs] info: Entre a /user
+2024-01-27T16:14:25.568Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:14:25.853Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:14:26.158Z [logs] info: obtuvo todos los productos
+2024-01-27T16:14:26.234Z [logs] info: obtuvo todos los productos
+2024-01-27T16:14:26.433Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:14:26.684Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:14:26.829Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:14:26.914Z [logs] info: Se encontro ususario
+2024-01-27T16:14:27.062Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:14:27.145Z [logs] info: se creo ticket de compra
+2024-01-27T16:14:27.145Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:20:11.414Z [logs] info: obtuvo todos los productos
+2024-01-27T16:20:11.490Z [logs] info: obtuvo todos los productos
+2024-01-27T16:20:11.653Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:20:12.632Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:20:12.720Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:20:12.727Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:20:13.216Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:20:18.401Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:20:18.617Z [logs] info: Ingreso a update last connection
+2024-01-27T16:20:18.913Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:20:18.915Z [logs] info: Ingreso usuario
+2024-01-27T16:20:18.920Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:20:19.105Z [logs] info: Entre a /user
+2024-01-27T16:20:20.796Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:20:21.043Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:20:21.383Z [logs] info: obtuvo todos los productos
+2024-01-27T16:20:21.470Z [logs] info: obtuvo todos los productos
+2024-01-27T16:20:21.649Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:20:22.774Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:20:22.924Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:20:23.000Z [logs] info: Se encontro ususario
+2024-01-27T16:20:23.150Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:20:42.095Z [logs] info: obtuvo todos los productos
+2024-01-27T16:20:42.173Z [logs] info: obtuvo todos los productos
+2024-01-27T16:20:42.322Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:20:42.970Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:20:43.045Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:20:43.054Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:20:43.617Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:22:20.663Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:22:20.766Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:22:27.011Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:22:27.227Z [logs] info: Ingreso a update last connection
+2024-01-27T16:22:27.522Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:22:27.525Z [logs] info: Ingreso usuario
+2024-01-27T16:22:27.530Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:22:28.113Z [logs] info: Entre a /user
+2024-01-27T16:22:29.503Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:22:29.873Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:22:30.279Z [logs] info: obtuvo todos los productos
+2024-01-27T16:22:30.353Z [logs] info: obtuvo todos los productos
+2024-01-27T16:22:30.525Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:22:31.556Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:22:31.711Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:22:31.867Z [logs] info: Se encontro ususario
+2024-01-27T16:22:32.031Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:22:32.128Z [logs] info: se creo ticket de compra
+2024-01-27T16:22:32.129Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:24:26.211Z [logs] info: obtuvo todos los productos
+2024-01-27T16:24:26.286Z [logs] info: obtuvo todos los productos
+2024-01-27T16:24:26.452Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:24:27.139Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:24:27.226Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:24:27.234Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:24:27.839Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:24:34.585Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:24:34.803Z [logs] info: Ingreso a update last connection
+2024-01-27T16:24:35.096Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:24:35.099Z [logs] info: Ingreso usuario
+2024-01-27T16:24:35.103Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:24:35.275Z [logs] info: Entre a /user
+2024-01-27T16:24:36.747Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:24:37.013Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:24:37.343Z [logs] info: obtuvo todos los productos
+2024-01-27T16:24:37.478Z [logs] info: obtuvo todos los productos
+2024-01-27T16:24:37.701Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:24:39.990Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:24:40.211Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:24:40.288Z [logs] info: Se encontro ususario
+2024-01-27T16:24:40.461Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:24:40.559Z [logs] info: se creo ticket de compra
+2024-01-27T16:24:40.560Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:28:23.175Z [logs] info: obtuvo todos los productos
+2024-01-27T16:28:23.251Z [logs] info: obtuvo todos los productos
+2024-01-27T16:28:23.424Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:28:24.426Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:28:24.598Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:28:24.605Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:28:25.314Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:28:32.016Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:28:32.230Z [logs] info: Ingreso a update last connection
+2024-01-27T16:28:32.469Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:28:32.472Z [logs] info: Ingreso usuario
+2024-01-27T16:28:32.476Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:28:32.642Z [logs] info: Entre a /user
+2024-01-27T16:28:33.981Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:28:34.289Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:28:34.598Z [logs] info: obtuvo todos los productos
+2024-01-27T16:28:34.672Z [logs] info: obtuvo todos los productos
+2024-01-27T16:28:34.823Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:28:35.321Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:28:35.478Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:28:35.629Z [logs] info: Se encontro ususario
+2024-01-27T16:28:35.777Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:28:35.935Z [logs] info: se creo ticket de compra
+2024-01-27T16:28:35.936Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:33:59.091Z [logs] info: obtuvo todos los productos
+2024-01-27T16:33:59.167Z [logs] info: obtuvo todos los productos
+2024-01-27T16:33:59.433Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:34:00.283Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:34:00.376Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:34:00.383Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:34:00.966Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:34:06.466Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:34:06.687Z [logs] info: Ingreso a update last connection
+2024-01-27T16:34:06.926Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:34:06.928Z [logs] info: Ingreso usuario
+2024-01-27T16:34:06.932Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:34:07.127Z [logs] info: Entre a /user
+2024-01-27T16:34:08.288Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:34:08.553Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:34:08.887Z [logs] info: obtuvo todos los productos
+2024-01-27T16:34:08.958Z [logs] info: obtuvo todos los productos
+2024-01-27T16:34:09.115Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:34:09.720Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:34:09.896Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:34:09.973Z [logs] info: Se encontro ususario
+2024-01-27T16:34:10.131Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:34:10.239Z [logs] info: se creo ticket de compra
+2024-01-27T16:34:10.239Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:36:34.124Z [logs] info: obtuvo todos los productos
+2024-01-27T16:36:34.253Z [logs] info: obtuvo todos los productos
+2024-01-27T16:36:34.422Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:36:35.358Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:36:35.433Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:36:35.439Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:36:35.920Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:36:40.991Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:36:41.259Z [logs] info: Ingreso a update last connection
+2024-01-27T16:36:41.531Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:36:41.534Z [logs] info: Ingreso usuario
+2024-01-27T16:36:41.538Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:36:41.747Z [logs] info: Entre a /user
+2024-01-27T16:36:43.277Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:36:43.573Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:36:43.924Z [logs] info: obtuvo todos los productos
+2024-01-27T16:36:43.997Z [logs] info: obtuvo todos los productos
+2024-01-27T16:36:44.160Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:36:44.856Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:36:45.015Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:36:45.109Z [logs] info: Se encontro ususario
+2024-01-27T16:36:45.426Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:36:45.545Z [logs] info: se creo ticket de compra
+2024-01-27T16:36:45.545Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:41:08.748Z [logs] info: obtuvo todos los productos
+2024-01-27T16:41:08.899Z [logs] info: obtuvo todos los productos
+2024-01-27T16:41:09.072Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:41:10.218Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:41:10.294Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:41:10.301Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:41:10.843Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:41:15.697Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:41:15.920Z [logs] info: Ingreso a update last connection
+2024-01-27T16:41:16.159Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:41:16.161Z [logs] info: Ingreso usuario
+2024-01-27T16:41:16.166Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:41:16.355Z [logs] info: Entre a /user
+2024-01-27T16:41:17.527Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:41:17.790Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:41:18.129Z [logs] info: obtuvo todos los productos
+2024-01-27T16:41:18.200Z [logs] info: obtuvo todos los productos
+2024-01-27T16:41:18.439Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:41:19.480Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:41:19.632Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:41:19.714Z [logs] info: Se encontro ususario
+2024-01-27T16:41:19.859Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:41:19.867Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:41:19.961Z [logs] info: se creo ticket de compra
+2024-01-27T16:41:19.961Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:43:46.923Z [logs] info: obtuvo todos los productos
+2024-01-27T16:43:47.003Z [logs] info: obtuvo todos los productos
+2024-01-27T16:43:47.242Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:43:48.250Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:43:48.336Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:43:48.342Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:43:48.893Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:43:56.484Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:43:56.704Z [logs] info: Ingreso a update last connection
+2024-01-27T16:43:56.969Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:43:56.971Z [logs] info: Ingreso usuario
+2024-01-27T16:43:56.975Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:43:57.137Z [logs] info: Entre a /user
+2024-01-27T16:43:58.411Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:43:58.709Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:43:59.129Z [logs] info: obtuvo todos los productos
+2024-01-27T16:43:59.202Z [logs] info: obtuvo todos los productos
+2024-01-27T16:43:59.359Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:43:59.764Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:43:59.953Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:44:00.026Z [logs] info: Se encontro ususario
+2024-01-27T16:44:00.234Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:44:00.242Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:44:00.242Z [logs] fatal: No se pudo crear ticket de compra
+2024-01-27T16:44:00.243Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:45:38.819Z [logs] info: obtuvo todos los productos
+2024-01-27T16:45:38.899Z [logs] info: obtuvo todos los productos
+2024-01-27T16:45:39.079Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:45:39.883Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:45:39.958Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:45:39.966Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:45:40.473Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:45:45.789Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:45:46.010Z [logs] info: Ingreso a update last connection
+2024-01-27T16:45:46.283Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:45:46.286Z [logs] info: Ingreso usuario
+2024-01-27T16:45:46.290Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:45:46.502Z [logs] info: Entre a /user
+2024-01-27T16:45:48.282Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:46:08.626Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:46:08.707Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:46:08.715Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:46:09.252Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:46:14.860Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:46:15.078Z [logs] info: Ingreso a update last connection
+2024-01-27T16:46:15.401Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:46:15.402Z [logs] info: Ingreso usuario
+2024-01-27T16:46:15.407Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:46:15.607Z [logs] info: Entre a /user
+2024-01-27T16:46:16.700Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:46:17.037Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:46:17.378Z [logs] info: obtuvo todos los productos
+2024-01-27T16:46:17.461Z [logs] info: obtuvo todos los productos
+2024-01-27T16:46:17.666Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:46:18.540Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:46:18.709Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:46:18.799Z [logs] info: Se encontro ususario
+2024-01-27T16:46:18.949Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:46:18.957Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:46:18.957Z [logs] fatal: Fallo la creacion de ticket para: abolivar@gmail.com
+2024-01-27T16:49:50.526Z [logs] info: obtuvo todos los productos
+2024-01-27T16:49:50.605Z [logs] info: obtuvo todos los productos
+2024-01-27T16:49:50.765Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:49:51.809Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:49:51.886Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:49:51.893Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:49:52.410Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:49:58.596Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:49:58.825Z [logs] info: Ingreso a update last connection
+2024-01-27T16:49:59.077Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:49:59.079Z [logs] info: Ingreso usuario
+2024-01-27T16:49:59.084Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:49:59.229Z [logs] info: Entre a /user
+2024-01-27T16:49:59.941Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:50:00.194Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:50:00.503Z [logs] info: obtuvo todos los productos
+2024-01-27T16:50:00.574Z [logs] info: obtuvo todos los productos
+2024-01-27T16:50:00.741Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:50:01.150Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:50:01.296Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:50:01.388Z [logs] info: Se encontro ususario
+2024-01-27T16:50:01.534Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:50:01.543Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:50:01.543Z [logs] fatal: No se pudo crear ticket de compra
+2024-01-27T16:50:01.543Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:50:35.106Z [logs] info: obtuvo todos los productos
+2024-01-27T16:50:35.239Z [logs] info: obtuvo todos los productos
+2024-01-27T16:50:35.462Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:50:36.024Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:50:36.123Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:50:36.130Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:50:36.662Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:50:41.893Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:50:42.096Z [logs] info: Ingreso a update last connection
+2024-01-27T16:50:42.388Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:50:42.389Z [logs] info: Ingreso usuario
+2024-01-27T16:50:42.394Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:50:42.552Z [logs] info: Entre a /user
+2024-01-27T16:50:43.519Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:50:43.776Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:50:44.082Z [logs] info: obtuvo todos los productos
+2024-01-27T16:50:44.201Z [logs] info: obtuvo todos los productos
+2024-01-27T16:50:44.348Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:50:45.093Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:50:45.237Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:50:45.331Z [logs] info: Se encontro ususario
+2024-01-27T16:50:45.572Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:50:45.580Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:50:45.581Z [logs] fatal: No se pudo crear ticket de compra
+2024-01-27T16:50:45.581Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:51:16.726Z [logs] info: obtuvo todos los productos
+2024-01-27T16:51:16.810Z [logs] info: obtuvo todos los productos
+2024-01-27T16:51:16.959Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:51:18.925Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:51:18.999Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:51:19.006Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:51:19.576Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:51:25.061Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:51:25.275Z [logs] info: Ingreso a update last connection
+2024-01-27T16:51:25.515Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:51:25.517Z [logs] info: Ingreso usuario
+2024-01-27T16:51:25.521Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:51:25.760Z [logs] info: Entre a /user
+2024-01-27T16:51:27.063Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:51:27.333Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:51:27.719Z [logs] info: obtuvo todos los productos
+2024-01-27T16:51:27.790Z [logs] info: obtuvo todos los productos
+2024-01-27T16:51:28.028Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:51:29.359Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:51:29.517Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:51:29.590Z [logs] info: Se encontro ususario
+2024-01-27T16:51:29.765Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:51:29.774Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:51:29.774Z [logs] fatal: No se pudo crear ticket de compra
+2024-01-27T16:51:29.775Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:51:55.762Z [logs] info: obtuvo todos los productos
+2024-01-27T16:51:55.855Z [logs] info: obtuvo todos los productos
+2024-01-27T16:51:56.022Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:51:56.695Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:51:56.771Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:51:56.777Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:51:57.320Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:52:02.351Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:52:02.650Z [logs] info: Ingreso a update last connection
+2024-01-27T16:52:02.964Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:52:02.966Z [logs] info: Ingreso usuario
+2024-01-27T16:52:02.970Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:52:03.228Z [logs] info: Entre a /user
+2024-01-27T16:52:04.252Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:52:16.705Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:52:46.863Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:52:46.941Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:52:46.950Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:52:47.530Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:52:53.883Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:52:54.121Z [logs] info: Ingreso a update last connection
+2024-01-27T16:52:54.375Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:52:54.377Z [logs] info: Ingreso usuario
+2024-01-27T16:52:54.382Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:52:54.530Z [logs] info: Entre a /user
+2024-01-27T16:52:55.596Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:52:55.766Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:52:56.147Z [logs] info: obtuvo todos los productos
+2024-01-27T16:52:56.222Z [logs] info: obtuvo todos los productos
+2024-01-27T16:52:56.466Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:52:57.288Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:52:57.451Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:52:57.525Z [logs] info: Se encontro ususario
+2024-01-27T16:52:57.683Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:52:57.692Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:52:57.692Z [logs] fatal: Fallo la creacion de ticket para: abolivar@gmail.com
+2024-01-27T16:53:33.831Z [logs] info: obtuvo todos los productos
+2024-01-27T16:53:33.948Z [logs] info: obtuvo todos los productos
+2024-01-27T16:53:34.145Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:53:34.892Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:53:34.967Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:53:34.973Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:53:35.563Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:53:41.072Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:53:41.285Z [logs] info: Ingreso a update last connection
+2024-01-27T16:53:41.542Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:53:41.545Z [logs] info: Ingreso usuario
+2024-01-27T16:53:41.550Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:53:41.699Z [logs] info: Entre a /user
+2024-01-27T16:53:42.471Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:53:42.742Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:53:43.056Z [logs] info: obtuvo todos los productos
+2024-01-27T16:53:43.128Z [logs] info: obtuvo todos los productos
+2024-01-27T16:53:43.321Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:53:43.825Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:53:44.047Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:53:44.120Z [logs] info: Se encontro ususario
+2024-01-27T16:53:44.267Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:53:44.274Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:53:44.275Z [logs] fatal: No se pudo crear ticket de compra
+2024-01-27T16:53:44.275Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T16:54:28.443Z [logs] info: obtuvo todos los productos
+2024-01-27T16:54:28.520Z [logs] info: obtuvo todos los productos
+2024-01-27T16:54:28.674Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:54:29.437Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T16:54:29.523Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T16:54:29.530Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:54:30.011Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:54:30.975Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T16:54:31.049Z [logs] info: Ingreso a pagina de Login
+2024-01-27T16:54:36.175Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T16:54:36.404Z [logs] info: Ingreso a update last connection
+2024-01-27T16:54:36.673Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T16:54:36.674Z [logs] info: Ingreso usuario
+2024-01-27T16:54:36.679Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T16:54:36.866Z [logs] info: Entre a /user
+2024-01-27T16:54:38.706Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T16:54:39.014Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T16:54:39.388Z [logs] info: obtuvo todos los productos
+2024-01-27T16:54:39.461Z [logs] info: obtuvo todos los productos
+2024-01-27T16:54:39.631Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:54:40.241Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T16:54:40.407Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T16:54:40.481Z [logs] info: Se encontro ususario
+2024-01-27T16:54:40.645Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T16:54:40.653Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T16:54:40.742Z [logs] info: se creo ticket de compra
+2024-01-27T16:54:40.743Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T17:05:23.389Z [logs] info: obtuvo todos los productos
+2024-01-27T17:05:23.564Z [logs] info: obtuvo todos los productos
+2024-01-27T17:05:23.845Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:05:24.059Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:05:24.203Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T17:05:24.210Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:05:25.460Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:05:27.399Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:05:27.523Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:05:40.788Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T17:05:41.194Z [logs] info: Ingreso a update last connection
+2024-01-27T17:05:41.732Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T17:05:41.734Z [logs] info: Ingreso usuario
+2024-01-27T17:05:41.738Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T17:05:42.000Z [logs] info: Entre a /user
+2024-01-27T17:05:43.341Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T17:05:43.923Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T17:05:44.480Z [logs] info: obtuvo todos los productos
+2024-01-27T17:05:44.642Z [logs] info: obtuvo todos los productos
+2024-01-27T17:05:44.968Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:05:45.681Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:05:45.947Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T17:05:46.111Z [logs] info: Se encontro ususario
+2024-01-27T17:05:46.481Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:05:46.488Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T17:05:46.630Z [logs] info: se creo ticket de compra
+2024-01-27T17:05:46.630Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T17:06:36.928Z [logs] info: obtuvo todos los productos
+2024-01-27T17:06:37.053Z [logs] info: obtuvo todos los productos
+2024-01-27T17:06:37.304Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:06:37.911Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:06:38.038Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T17:06:38.044Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:06:38.966Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:06:44.595Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T17:06:44.979Z [logs] info: Ingreso a update last connection
+2024-01-27T17:06:45.499Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T17:06:45.500Z [logs] info: Ingreso usuario
+2024-01-27T17:06:45.506Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T17:06:45.812Z [logs] info: Entre a /user
+2024-01-27T17:06:53.494Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T17:06:53.961Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T17:06:54.615Z [logs] info: obtuvo todos los productos
+2024-01-27T17:06:54.765Z [logs] info: obtuvo todos los productos
+2024-01-27T17:06:55.035Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:06:55.226Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:06:55.496Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T17:06:55.727Z [logs] info: Se encontro ususario
+2024-01-27T17:06:55.968Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:06:55.976Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T17:06:56.159Z [logs] info: se creo ticket de compra
+2024-01-27T17:06:56.159Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T17:07:38.720Z [logs] info: obtuvo todos los productos
+2024-01-27T17:07:38.874Z [logs] info: obtuvo todos los productos
+2024-01-27T17:07:39.229Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:07:39.675Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:07:39.802Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T17:07:39.809Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:07:40.686Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:07:42.101Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:07:42.255Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:07:47.145Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T17:07:47.505Z [logs] info: Ingreso a update last connection
+2024-01-27T17:07:47.964Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T17:07:47.966Z [logs] info: Ingreso usuario
+2024-01-27T17:07:47.971Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T17:07:48.362Z [logs] info: Entre a /user
+2024-01-27T17:07:49.895Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T17:07:50.401Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T17:07:51.039Z [logs] info: obtuvo todos los productos
+2024-01-27T17:07:51.201Z [logs] info: obtuvo todos los productos
+2024-01-27T17:07:51.493Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:07:52.910Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:07:53.237Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T17:07:53.370Z [logs] info: Se encontro ususario
+2024-01-27T17:07:53.725Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:07:53.733Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T17:07:53.940Z [logs] info: se creo ticket de compra
+2024-01-27T17:07:53.941Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T17:09:59.373Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:09:59.391Z [logs] info: obtuvo todos los productos
+2024-01-27T17:09:59.509Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T17:09:59.516Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:09:59.524Z [logs] info: obtuvo todos los productos
+2024-01-27T17:09:59.877Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:10:00.451Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:10:02.454Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:10:02.606Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:10:07.985Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T17:10:08.319Z [logs] info: Ingreso a update last connection
+2024-01-27T17:10:08.772Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T17:10:08.773Z [logs] info: Ingreso usuario
+2024-01-27T17:10:08.778Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T17:10:09.169Z [logs] info: Entre a /user
+2024-01-27T17:10:15.408Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T17:10:15.931Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T17:10:16.491Z [logs] info: obtuvo todos los productos
+2024-01-27T17:10:16.664Z [logs] info: obtuvo todos los productos
+2024-01-27T17:10:16.979Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:10:17.956Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:10:18.283Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T17:10:18.446Z [logs] info: Se encontro ususario
+2024-01-27T17:10:18.700Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:10:18.708Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T17:10:18.865Z [logs] info: se creo ticket de compra
+2024-01-27T17:10:18.865Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T17:13:48.013Z [logs] info: obtuvo todos los productos
+2024-01-27T17:13:48.140Z [logs] info: obtuvo todos los productos
+2024-01-27T17:13:48.444Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:13:49.197Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:13:49.378Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T17:13:49.384Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:13:50.237Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:14:26.439Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T17:14:26.808Z [logs] info: Ingreso a update last connection
+2024-01-27T17:14:27.269Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T17:14:27.272Z [logs] info: Ingreso usuario
+2024-01-27T17:14:27.277Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T17:14:27.563Z [logs] info: Entre a /user
+2024-01-27T17:14:32.676Z [logs] info: GET en /ecommerce/home/profile?
+2024-01-27T17:14:32.989Z [logs] info: usuario ingreso a su perfil: abolivar@gmail.com
+2024-01-27T17:14:36.506Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T17:14:36.971Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T17:14:37.669Z [logs] info: obtuvo todos los productos
+2024-01-27T17:14:37.807Z [logs] info: obtuvo todos los productos
+2024-01-27T17:14:38.051Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:15:00.218Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:15:00.343Z [logs] info: Procedio a la compra: undefined
+2024-01-27T17:15:00.466Z [logs] info: Se encontro ususario
+2024-01-27T17:15:00.469Z [logs] fatal: Fallo la creacion de ticket para: undefined
+2024-01-27T17:15:16.845Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:15:19.038Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:15:19.502Z [logs] info: obtuvo todos los productos
+2024-01-27T17:15:19.695Z [logs] info: obtuvo todos los productos
+2024-01-27T17:15:19.952Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:15:19.958Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T17:15:19.966Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:15:20.121Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:15:29.723Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T17:15:30.096Z [logs] info: Ingreso a update last connection
+2024-01-27T17:15:30.575Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T17:15:30.577Z [logs] info: Ingreso usuario
+2024-01-27T17:15:30.774Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T17:15:31.023Z [logs] info: Entre a /user
+2024-01-27T17:15:34.733Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T17:15:35.181Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T17:15:35.738Z [logs] info: obtuvo todos los productos
+2024-01-27T17:15:35.902Z [logs] info: obtuvo todos los productos
+2024-01-27T17:15:36.227Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:15:39.305Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:15:39.665Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T17:15:39.863Z [logs] info: Se encontro ususario
+2024-01-27T17:15:40.138Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:15:40.146Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T17:15:40.340Z [logs] info: se creo ticket de compra
+2024-01-27T17:15:40.340Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T17:37:48.406Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:38:04.877Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:38:04.961Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T17:38:04.967Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:38:05.253Z [logs] info: obtuvo todos los productos
+2024-01-27T17:38:05.325Z [logs] info: obtuvo todos los productos
+2024-01-27T17:38:05.479Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:38:05.493Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:38:07.280Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:38:07.370Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:38:13.880Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T17:38:14.129Z [logs] info: Ingreso a update last connection
+2024-01-27T17:38:14.391Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T17:38:14.393Z [logs] info: Ingreso usuario
+2024-01-27T17:38:14.475Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T17:38:14.630Z [logs] info: Entre a /user
+2024-01-27T17:38:18.276Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T17:38:18.602Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T17:38:18.968Z [logs] info: obtuvo todos los productos
+2024-01-27T17:38:19.042Z [logs] info: obtuvo todos los productos
+2024-01-27T17:38:19.197Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:38:20.548Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:38:20.692Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T17:38:20.769Z [logs] info: Se encontro ususario
+2024-01-27T17:38:20.968Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:38:20.971Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T17:38:21.173Z [logs] info: se creo ticket de compra
+2024-01-27T17:38:21.174Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com
+2024-01-27T17:39:30.704Z [logs] info: obtuvo todos los productos
+2024-01-27T17:39:30.786Z [logs] info: obtuvo todos los productos
+2024-01-27T17:39:30.953Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:39:31.454Z [logs] info: GET en /ecommerce/home/logout?
+2024-01-27T17:39:31.570Z [logs] info: Usuario hizo logout: undefined
+2024-01-27T17:39:31.577Z [logs] info: GET en /ecommerce/home/login
+2024-01-27T17:39:32.192Z [logs] info: Ingreso a pagina de Login
+2024-01-27T17:39:37.249Z [logs] info: POST en /ecommerce/user/login_passport
+2024-01-27T17:39:37.483Z [logs] info: Ingreso a update last connection
+2024-01-27T17:39:37.788Z [logs] info: Usuario hizo login: abolivar@gmail.com
+2024-01-27T17:39:37.790Z [logs] info: Ingreso usuario
+2024-01-27T17:39:37.795Z [logs] info: GET en /ecommerce/user/user
+2024-01-27T17:39:38.035Z [logs] info: Entre a /user
+2024-01-27T17:39:39.763Z [logs] info: GET en /mongo/products/catalog
+2024-01-27T17:39:40.019Z [logs] info: GET en /js/indexproducts.js
+2024-01-27T17:39:40.354Z [logs] info: obtuvo todos los productos
+2024-01-27T17:39:40.542Z [logs] info: obtuvo todos los productos
+2024-01-27T17:39:40.695Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:39:41.525Z [logs] info: POST en /mongo/carts/659b3bbed75ed9a1663d3827/purchase
+2024-01-27T17:39:41.699Z [logs] info: Procedio a la compra: abolivar@gmail.com
+2024-01-27T17:39:41.810Z [logs] info: Se encontro ususario
+2024-01-27T17:39:41.954Z [logs] info: Se obtuvo productos del carrito con exito
+2024-01-27T17:39:41.955Z [logs] info: Validacion de stock de productos exitosa
+2024-01-27T17:39:42.046Z [logs] info: se creo ticket de compra
+2024-01-27T17:39:42.047Z [logs] info: Se creo ticket de compra para: abolivar@gmail.com

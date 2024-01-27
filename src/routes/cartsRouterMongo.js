@@ -133,15 +133,15 @@ router.post("/:cid/purchase", async (req, res) => {
     try {
         const ticketcreator = await ticket.createticket(purchaser); //llamamos funcion que crea ticket
         logger.info('Se creo ticket de compra para: ' + req.session.email);
+        console.log("SE IMPRIME TICKET CREATOR"); 
         console.log(ticketcreator);
+        res.send("SU TICKET DE COMPRA ES:" + ticketcreator + "REVISE SU CORREO PARA COMPLETAR LA COMPRA"); 
 
     } catch {
         logger.fatal('Fallo la creacion de ticket para: ' + req.session.email);
 
     } 
 
-
-    return res.send("PURCHASE");
 })
 
 export default router;

@@ -15,6 +15,19 @@ const userservice = new user();
 
 class userManager {
 
+    async finduser (email){
+
+        try {
+            const userExists = await usersModel.findOne({ email });
+            logger.info("Se encontro ususario")
+            return userExists; 
+        } catch {
+            logger.error("usuario no existe"); 
+        }
+
+
+    }
+
     async registeruser(username, email, password) {
 
         const userExists = await usersModel.findOne({ email });

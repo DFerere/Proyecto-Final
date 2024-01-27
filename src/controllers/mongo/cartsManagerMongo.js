@@ -1,11 +1,11 @@
 import ProductManagerMongo from './productsManagerMongo.js';
-const productos = new ProductManagerMongo(); //instanciamos clase que maneja productos
 import { cartsModel } from '../../dao/models/cartsmodels.js';
 import carts from '../../repository/servicescart.js';
 import products from '../../repository/servicesproducts.js';
 import { logger } from '../../utils/logger.js';
 
 const servicescarts = new carts();
+
 
 class CartManagerMongo {
 
